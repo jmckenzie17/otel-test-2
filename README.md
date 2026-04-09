@@ -1,1 +1,1 @@
-yolo
+<iframe src="https://spudoss.grafana.net/d-solo/sprfv4p/new-dashboard?orgId=1&from=1775653419079&to=1775739819079&timezone=browser&refresh=5s&tab=transformations&theme=dark&panelId=panel-1" width="450" height="200" frameborder="0"></iframe>
