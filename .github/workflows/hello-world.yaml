@@ -13,16 +13,10 @@ jobs:
     environment: dev
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
       - name: Run hello world script
         run: |
           set -euo pipefail
           echo "Hello, World! Running in the dev environment"
-
-      - name: Wait 30 seconds
-        run: sleep 30
 
   hello-staging:
     name: Hello World (staging)
@@ -30,16 +24,10 @@ jobs:
     environment: staging
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
       - name: Run hello world script
         run: |
           set -euo pipefail
           echo "Hello, World! Running in the staging environment"
-
-      - name: Wait 30 seconds
-        run: sleep 30
 
   hello-prod:
     name: Hello World (prod)
@@ -47,18 +35,7 @@ jobs:
     environment: prod
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
       - name: Run hello world script
         run: |
           set -euo pipefail
           echo "Hello, World! Running in the prod environment"
-          if [ "${{ github.run_attempt }}" -lt 2 ]; then
-            echo "Simulating failure on attempt ${{ github.run_attempt }}"
-            exit 1
-          fi
-          echo "Attempt ${{ github.run_attempt }} - success!"
-
-      - name: Wait 30 seconds
-        run: sleep 30
