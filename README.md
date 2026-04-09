@@ -1,1 +1,1 @@
-<iframe src="https://spudoss.grafana.net/d-solo/sprfv4p/new-dashboard?orgId=1&from=1775653419079&to=1775739819079&timezone=browser&refresh=5s&tab=transformations&theme=dark&panelId=panel-1" width="450" height="200" frameborder="0"></iframe>
+![Dashboard Title](https://spudoss.grafana.net/render/d-solo/sprfv4p?orgId=1&from=2026-04-08T13:12:16.042Z&to=2026-04-09T13:12:16.042Z&timezone=browser&refresh=5s&tab=transformations&panelId=panel-1&hideLogo=true&width=1000&height=500&scale=1&tz=America%2FDetroit)
